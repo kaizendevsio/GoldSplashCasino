@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GoldSplashCasino.DataAccessLayer\GoldSplashCasino.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\GoldSplashCasino.Entities\GoldSplashCasino.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

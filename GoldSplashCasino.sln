@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSplashCasino", "GoldSplashCasino\GoldSplashCasino.csproj", "{48994480-B01C-4A0A-8F5D-AD8CE8E42CD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldSplashCasino", "GoldSplashCasino\GoldSplashCasino.csproj", "{48994480-B01C-4A0A-8F5D-AD8CE8E42CD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSplashCasino.UnitTest", "GoldSplashCasino.UnitTest\GoldSplashCasino.UnitTest.csproj", "{E6BB60C1-C97D-409E-AA4F-E356C49D035A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldSplashCasino.UnitTest", "GoldSplashCasino.UnitTest\GoldSplashCasino.UnitTest.csproj", "{E6BB60C1-C97D-409E-AA4F-E356C49D035A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSplashCasino.Api", "GoldSplashCasino.Api\GoldSplashCasino.Api.csproj", "{1982DB59-7C48-4C17-80CB-B1AF2DED5D5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldSplashCasino.AppService", "GoldSplashCasino.AppService\GoldSplashCasino.AppService.csproj", "{048587B0-58BC-491F-A2A9-5B08EFAF0E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSplashCasino.AppService", "GoldSplashCasino.AppService\GoldSplashCasino.AppService.csproj", "{048587B0-58BC-491F-A2A9-5B08EFAF0E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldSplashCasino.AppService.Interface", "GoldSplashCasino.AppService.Interface\GoldSplashCasino.AppService.Interface.csproj", "{F36B56A2-9E6C-4406-A875-BF8A3BCDF469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSplashCasino.AppService.Interface", "GoldSplashCasino.AppService.Interface\GoldSplashCasino.AppService.Interface.csproj", "{F36B56A2-9E6C-4406-A875-BF8A3BCDF469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldSplashCasino.Entities", "GoldSplashCasino.Entities\GoldSplashCasino.Entities.csproj", "{817C4FCB-0C81-4D36-8B01-6CA0AC0130D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSplashCasino.Entities", "GoldSplashCasino.Entities\GoldSplashCasino.Entities.csproj", "{817C4FCB-0C81-4D36-8B01-6CA0AC0130D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSplashCasino.Api", "GoldSplashCasino.Api\GoldSplashCasino.Api.csproj", "{B5C5A0B1-2754-49BF-A29D-07F7997644EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSplashCasino.DataAccessLayer", "GoldSplashCasino.DataAccessLayer\GoldSplashCasino.DataAccessLayer.csproj", "{B08AE40A-238B-4557-B99D-18BC2CFFA70F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldSplashCasino.DataAccessLayer", "GoldSplashCasino.DataAccessLayer\GoldSplashCasino.DataAccessLayer.csproj", "{47AB5BD6-17A3-4D85-9B23-F555053F505A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,6 @@ Global
 		{E6BB60C1-C97D-409E-AA4F-E356C49D035A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6BB60C1-C97D-409E-AA4F-E356C49D035A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6BB60C1-C97D-409E-AA4F-E356C49D035A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1982DB59-7C48-4C17-80CB-B1AF2DED5D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1982DB59-7C48-4C17-80CB-B1AF2DED5D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1982DB59-7C48-4C17-80CB-B1AF2DED5D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1982DB59-7C48-4C17-80CB-B1AF2DED5D5D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{048587B0-58BC-491F-A2A9-5B08EFAF0E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{048587B0-58BC-491F-A2A9-5B08EFAF0E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{048587B0-58BC-491F-A2A9-5B08EFAF0E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,10 +43,14 @@ Global
 		{817C4FCB-0C81-4D36-8B01-6CA0AC0130D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{817C4FCB-0C81-4D36-8B01-6CA0AC0130D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{817C4FCB-0C81-4D36-8B01-6CA0AC0130D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B08AE40A-238B-4557-B99D-18BC2CFFA70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B08AE40A-238B-4557-B99D-18BC2CFFA70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B08AE40A-238B-4557-B99D-18BC2CFFA70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B08AE40A-238B-4557-B99D-18BC2CFFA70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C5A0B1-2754-49BF-A29D-07F7997644EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C5A0B1-2754-49BF-A29D-07F7997644EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C5A0B1-2754-49BF-A29D-07F7997644EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C5A0B1-2754-49BF-A29D-07F7997644EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AB5BD6-17A3-4D85-9B23-F555053F505A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AB5BD6-17A3-4D85-9B23-F555053F505A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AB5BD6-17A3-4D85-9B23-F555053F505A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AB5BD6-17A3-4D85-9B23-F555053F505A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
